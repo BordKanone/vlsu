@@ -1,0 +1,255 @@
+$smoky-bright: #d1d1d2;
+$white: #ffffff;
+$white-transparent: rgba(255, 255, 255, 0.05);
+$white-transparent7: rgba(255, 255, 255, 0.7);
+
+$dark-300: #0c0b0d;
+$dark-200: #091326;
+$dark-100: #1b1a1d;
+
+$tooltip: $bg-transparent-dark-80;
+$dropdown: #1e283e;
+$text-primary: $white;
+$text-secondary: #98b0c1;
+$text-tertiary: #5f7183;
+$bg-400: #242f42;
+$bg-350: #222b3c;
+$bg-300: #222b3c;
+$bg-250: #131c2f;
+$bg-200: #131c2f;
+
+$bg-transparent-80: rgba(4, 11, 24, 0.8);
+$bg-transparent-50: rgba(9, 19, 38, 0.5);
+$bg-transparent-dark-80: rgba(3, 10, 22, 0.8);
+
+$blue: #49afe9;
+$blue-transparent-50: rgba(73, 175, 233, 0.5);
+$blue-transparent-25: rgba(73, 175, 233, 0.25);
+$blue-transparent-15: rgba(73, 175, 233, 0.15);
+$blue-deep: #258ec9;
+$blue-darkest: #161f32;
+
+$grey-transparent: #ffffff1f;
+$grey-transparent-40: rgba(255, 255, 255, 0.04);
+
+$status-error: #fe2f2f;
+$status-warning: #fe822f;
+$status-success: #68ebbc;
+
+// Components variables
+
+$body-bg: $dark-200;
+
+// texts
+$text-primary-color: $white;
+$text-secondary-color: $text-secondary;
+$text-tertiary-color: $text-tertiary;
+
+// main background
+$content-primary-bg: $dark-200;
+$header-primary-bg: $dark-100;
+$info-primary-bg: $dark-300;
+$footer-primary-bg: $blue-darkest;
+
+// notification
+$notification-primary-bg: $bg-300;
+$notification-primary-border: $bg-400;
+$notification-primary-text: $text-primary-color;
+$notification-secondary-text: $smoky-bright;
+$notification-secondary-text-loading: $text-tertiary;
+$notification-secondary-text-completed: $status-success;
+$notification-secondary-text-error: $status-error;
+
+// modals
+$wallet-connection-adapter-primary-bg: $bg-200;
+$wallet-connection-modal-primary-border: $bg-400;
+$wallet-connection-adapter-primary-select: $bg-300;
+$wallet-connection-adapter-primary-text: $text-primary-color;
+$network-settings-secondary-text: $text-tertiary;
+
+// section
+$section-primary-bg: $bg-200;
+
+// buttons/icons
+$button-primary-bg: $blue;
+$button-primary-bg-hover: $blue-transparent-50;
+$button-primary-bg-pressed: $blue-transparent-25;
+$button-primary-bg-disabled: $blue-transparent-25;
+
+$button-primary-text: $white;
+$button-primary-text-hover: $blue;
+$button-primary-text-pressed: $blue-deep;
+$button-primary-text-disabled: $white;
+
+$button-primary-border: $blue;
+$button-primary-border-hover: $blue;
+$button-primary-border-pressed: $blue-deep;
+$button-primary-border-disabled: $blue-transparent-25;
+
+$button-secondary-bg: $bg-300;
+$button-secondary-bg-hover: $bg-350;
+$button-secondary-bg-pressed: $bg-250;
+$button-secondary-bg-disabled: $bg-200;
+
+$button-secondary-text: $text-primary-color;
+$button-secondary-text-hover: $text-primary-color;
+$button-secondary-text-pressed: $text-primary-color;
+$button-secondary-text-disabled: $text-tertiary-color;
+
+//menu items
+$menu-items-primary-text: $text-primary-color;
+$menu-items-primary-text-hover: $blue;
+$menu-items-primary-text-pressed: $blue-deep;
+
+//inputs
+$input-primary-bg: $bg-300;
+$input-primary-bg-hover: $bg-400;
+$input-primary-bg-pressed: $bg-400;
+
+$input-primary-text: $text-tertiary-color;
+$input-primary-text-hover: $text-tertiary-color;
+$input-primary-text-pressed: $text-primary-color;
+
+$input-secondary-bg: $bg-200;
+$input-secondary-bg-hover: $bg-250;
+$input-secondary-bg-pressed: $bg-300;
+$input-button-secondary-bg-hover: $bg-400;
+$input-button-secondary-bg: $bg-250;
+$input-button-secondary-text: $text-secondary;
+
+$input-secondary-text: $text-secondary-color;
+$input-secondary-text-hover: $text-secondary-color;
+$input-secondary-text-pressed: $text-primary-color;
+$input-secondary-border: $bg-350;
+
+//dropdowns
+$dropdown-primary-bg: $bg-200;
+$dropdown-primary-bg-hover: $bg-250;
+$dropdown-primary-bg-pressed: $blue-transparent-15;
+$dropdown-primary-bg-disabled: $bg-200;
+
+$dropdown-primary-text: $text-primary-color;
+$dropdown-primary-text-hover: $text-primary-color;
+$dropdown-primary-text-pressed: $text-primary-color;
+$dropdown-primary-text-disabled: $text-tertiary-color;
+
+$dropdown-primary-text-title: $text-tertiary-color;
+$dropdown-primary-text-title-hover: $text-tertiary-color;
+$dropdown-primary-text-title-pressed: $text-tertiary-color;
+$dropdown-primary-text-title-disabled: $text-tertiary-color;
+
+$dropdown-primary-border-pressed: $blue;
+
+$dropdown-secondary-bg: $bg-200;
+$dropdown-secondary-bg-hover: $bg-250;
+$dropdown-secondary-bg-pressed: $blue-transparent-15;
+$dropdown-secondary-bg-disabled: $bg-200;
+
+$dropdown-secondary-text: $text-primary-color;
+$dropdown-secondary-text-hover: $text-primary-color;
+$dropdown-secondary-text-pressed: $text-primary-color;
+$dropdown-secondary-text-disabled: $text-tertiary-color;
+$dropdown-secondary-bg-item-hover: $white-transparent;
+
+$dropdown-secondary-border-pressed: $blue;
+$dropdown-secondary-border: $bg-400;
+
+//wallet button
+$wallet-primary-button-bg-connect: $bg-300;
+$wallet-primary-button-bg-hover: $bg-400;
+$wallet-primary-button-bg-pressed: $white;
+$wallet-primary-button-bg-disconnect: $blue-transparent-25;
+
+$wallet-primary-button-text: $dark-300;
+$wallet-primary-button-text-hover: $text-primary-color;
+$wallet-primary-button-text-pressed: $dark-300;
+
+// table
+$table-bg: $bg-200;
+$table-border-color: $bg-300;
+
+//tabs
+
+$tab-secondary-bg-active: $blue-transparent-15;
+
+$tab-secondary-value-bg: $grey-transparent-40;
+$tab-secondary-value-bg-hover: $grey-transparent-40;
+$tab-secondary-value-bg-active: $blue;
+
+$tab-secondary-text: $text-secondary;
+$tab-secondary-text-hover: $text-primary-color;
+$tab-secondary-text-active: $text-primary-color;
+
+$tab-secondary-value-text: $text-tertiary-color;
+$tab-secondary-value-text-hover: $text-primary-color;
+
+$tab-secondary-value-text-active: $dark-300;
+
+$tab-primary-value-bg: $blue;
+$tab-primary-value-text: $dark-300;
+
+$tab-primary-text: $blue;
+
+$tab-primary-value-text: $text-tertiary-color;
+$tab-primary-value-text-hover: $text-tertiary-color;
+$tab-primary-value-text-active: $dark-300;
+
+$tab-dropdown-primary-border-active: $blue;
+
+$tab-dropdown-secondary-bg: $bg-200;
+$tab-dropdown-secondary-bg-hover: $bg-250;
+$tab-dropdown-secondary-bg-active: $blue-transparent-15;
+
+// slider
+
+$slider-primary-text: $text-primary-color;
+$slider-secondary-text: $text-secondary-color;
+
+$slider-primary-bg: $blue;
+$slider-secondary-bg: $bg-400;
+
+// block modal
+$block-modal-primary-bg: $bg-200;
+$block-modal-primary-border: $bg-400;
+$block-modal-secondary-text: $text-secondary;
+
+//accordion
+$accordion-arrow-primary-bg: $bg-400;
+
+// collapse
+$collapse-primary-text: $text-primary-color;
+$collapse-secondary-text: $text-secondary;
+$collapse-panel-bg-active: $bg-400;
+$collapse-panel-primary-bg: $bg-300;
+
+// progress
+$progress-primary-bg: $blue;
+$progress-secondary-bg: $dark-200;
+
+// strategy
+$strategy-link-color: $blue;
+$strategy-link-color-hover: $white;
+$strategy-card-primary-bg: $bg-200;
+$strategy-card-primary-bg-hover: #172138;
+
+// card
+$card-primary-bg: $bg-200;
+$card-secondary-bg: $bg-400;
+$card-border-color: $bg-300;
+$card-corner-color: rgba(116, 131, 160, 0.5);
+
+// table
+$table-primary-bg: $bg-200;
+
+// footer
+$footer-link-underline: $grey-transparent;
+
+// graph
+$graph-flyout-background: $bg-transparent-dark-80;
+$graph-flyout-primary-color: $white;
+$graph-flyout-secondary-color: $white-transparent7;
+
+// badges
+$badge-bg-primary: $bg-200;
+$badge-border-primary: $bg-300;
+$badge-bg-primary-hover: $bg-400;
