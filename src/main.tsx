@@ -1,13 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserHistory } from 'history';
-import './index.css'
-import { AppHeader } from "./components/AppHeader/AppHeader";
+import './index.scss'
+import {BrowserRouter} from "react-router-dom";
+import {App} from "./App";
 
 const history = createBrowserHistory();
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <AppHeader />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 )

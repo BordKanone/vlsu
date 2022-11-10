@@ -1,0 +1,24 @@
+@import "constatnts";
+@import "breakpoints";
+
+@mixin container() {
+  width: $desktop-w;
+  margin: 0 auto;
+
+  @media #{$desktop} {
+  width: $laptop-w;
+}
+
+  @media #{$laptop} {
+  width: 100%;
+  padding: 0 24px;
+  max-width: $laptop;
+}
+
+  @media #{$tablet} {
+  max-width: initial;
+  width: $mobile-w;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+}

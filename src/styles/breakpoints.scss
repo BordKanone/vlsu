@@ -1,0 +1,7 @@
+@import 'constatnts';
+
+$mobile: 'screen and (max-width: #{$mobile-bp})';
+$xs: 'screen and (max-width: #{$xs-bp})';
+$tablet: 'screen and (max-width: #{$tablet-bp})';
+$laptop: 'screen and (max-width: #{$laptop-bp})';
+$desktop: 'screen and (max-width: #{$desktop-bp})';
