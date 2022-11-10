@@ -1,7 +1,8 @@
 @import "./styles/mixins";
+@import "./styles/colors";
 
 .app {
   @include container;
-  background: #535bf2;
+  background: $bg-200;
   height: 100vh;
 }
