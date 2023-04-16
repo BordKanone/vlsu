@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "yarn type-check && vite build",
     "build:turbo": "npx turbo build",
-    "serve": "vite preview",
+    "serve": "vite preview --port 3000",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix && yarn format",
     "lint:turbo": "npx turbo lint",

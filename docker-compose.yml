@@ -1,9 +1,9 @@
-version: '3.9'
+version: '3.3'
 services:
   my-vite-react-app:
     build: .
     ports:
-      - "5147:5147"
+      - "3000:3000"
     command: yarn dev
   nginx:
     image: nginx
