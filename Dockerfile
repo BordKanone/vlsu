@@ -1,14 +1,10 @@
-FROM node:16
+FROM node:lts-alpine
 
 WORKDIR /app
 
-COPY package.json .
-COPY yarn.lock .
-
+COPY package.json yarn.lock ./
 RUN yarn install
 
-COPY . .
+COPY . ./
 
-EXPOSE 3000
-
-CMD ["yarn", "serve"]
+RUN yarn build
