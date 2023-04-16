@@ -4,7 +4,7 @@
   "private": true,
   "author": "sozonome",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "yarn type-check && vite build",
     "build:turbo": "npx turbo build",
     "serve": "vite preview --port 3000",
